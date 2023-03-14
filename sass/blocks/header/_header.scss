@@ -1,0 +1,51 @@
+.header {
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+	
+	&__container {
+		display: grid;
+		grid-template: 1fr / 1fr minmax(auto, 518px) minmax(auto, 930px);
+		align-items: center;
+	}
+
+	&__logo {
+			font-weight: 700;
+			font-size: 2.5rem;
+			line-height: 105%;
+			color: $mainColor;
+			text-transform: uppercase;
+			grid-column: 1/2;
+			cursor: pointer;
+	}
+
+	&__menu {
+		grid-column: 3/4;
+	}
+
+	&__list {
+		display: grid;
+		grid-auto-flow: column;
+		justify-items: start;
+	}
+
+	
+	&__list li:first-child {
+		color: $mainColor;
+	}
+
+	&__link a {
+			font-size: 0.9rem;
+			line-height: 105%;
+			color: $textColor;
+			&:hover {
+				color: $mainColor;
+			}
+			
+	}
+}
+
+

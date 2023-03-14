@@ -1,0 +1,33 @@
+@font-face {
+	font: {
+		family: 'Objective';
+		size: 1rem;
+		style: normal;
+		weight: 400;
+		
+	}
+	src: url('../../font/Objective-Regular.woff2') format('woff2') ;
+}
+
+@font-face {
+	font: {
+		family: 'Objective';
+		size: 1rem;
+		style: normal;
+		weight: 500;
+		
+	}
+	src: url('../../font/Objective-Medium.woff2') format('woff2');
+}
+
+
+@font-face {
+	font: {
+		family: 'Objective';
+		size: 1rem;
+		style: normal;
+		weight: 700;
+		
+	}
+	src: url('../../font/Objective-Bold.woff2') format('woff2');
+}
